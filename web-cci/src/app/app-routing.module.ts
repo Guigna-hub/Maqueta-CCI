@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'vServicios', component: ServiciosComponent },
   { path: 'vTurismo', component: TurismoComponent },
   { path: 'vError', component: VistaErrorComponent },
-  { path: '', redirectTo: "/home", pathMatch: "full" },
+  { path: '', redirectTo: "/vInicio", pathMatch: "full" },
   { path: '**', redirectTo: 'vError' },
 ];
 
