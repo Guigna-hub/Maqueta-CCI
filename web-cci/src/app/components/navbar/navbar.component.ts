@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  routeInicioVisible = true;
+  routeNovedadesVisible = true;
+  routeOportunidadesVisible = true;
+  routeServiciosVisible = true;
+  routeTurismoVisible = true;
+
   constructor() { }
 
   ngOnInit(): void {

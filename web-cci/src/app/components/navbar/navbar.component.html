@@ -1,25 +1,25 @@
-<nav class="navbar navbar-expand-lg navbar-light navbar-ccim">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-ccim">
 
     <div class="collapse  navbar-collapse" id="navbarTogglerDemo01">
 
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto nav-item-ccim">
-            <li class="nav-item active ">
-                <a class="nav-link" href="#">Inicio /<br> Inizio</a>
+            <li *ngIf="routeInicioVisible" class="nav-item">
+                <a routerLink="/vInicio" class="nav-link">Inicio /<br> Inizio</a>
+            </li>
+            <li *ngIf="routeOportunidadesVisible" class="nav-item">
+                <a routerLink="/vNovedades" class="nav-link">Oportunidades /<br>Opportunità </a>
+            </li>
+            <li *ngIf="routeServiciosVisible" class="nav-item">
+                <a routerLink="/vServicios" class="nav-link">Servicios /<br>Servizi </a>
+            </li>
+            <li *ngIf="routeNovedadesVisible" class="nav-item">
+                <a routerLink="/vNovedades" class="nav-link">Novedades /<br>Novità </a>
+            </li>
+            <li *ngIf="routeTurismoVisible" class="nav-item">
+                <a routerLink="/vTurismo" class="nav-link">Argentina &<br>Italia </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Oportunidades /<br>Opportunità </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Servicios /<br>Servizi </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Novedades /<br>Novità </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Argentina &<br>Italia </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Altro</a>
+                <a class="nav-link">Altro</a>
             </li>
         </ul>
 
