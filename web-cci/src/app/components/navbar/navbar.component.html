@@ -1,26 +1,30 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-ccim">
-
-    <div class="collapse  navbar-collapse" id="navbarTogglerDemo01">
-
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto nav-item-ccim">
-            <li *ngIf="routeInicioVisible" class="nav-item">
-                <a routerLink="/vInicio" class="nav-link">Inicio /<br> Inizio</a>
-            </li>
-            <li *ngIf="routeOportunidadesVisible" class="nav-item">
-                <a routerLink="/vNovedades" class="nav-link">Oportunidades /<br>Opportunità </a>
-            </li>
-            <li *ngIf="routeServiciosVisible" class="nav-item">
-                <a routerLink="/vServicios" class="nav-link">Servicios /<br>Servizi </a>
-            </li>
-            <li *ngIf="routeNovedadesVisible" class="nav-item">
-                <a routerLink="/vNovedades" class="nav-link">Novedades /<br>Novità </a>
-            </li>
-            <li *ngIf="routeTurismoVisible" class="nav-item">
-                <a routerLink="/vTurismo" class="nav-link">Argentina &<br>Italia </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link">Altro</a>
-            </li>
-        </ul>
-
+<nav class="navbar navbar-expand-lg navbar-light fixed-top fixed-top navbar-ccim">
+    <div class="container-fluid">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-column justify-content-between px-0" id="navbarNav">
+            <ul class="navbar-nav mx-auto nav-item-ccim">
+                <li *ngIf="routeInicioVisible" class="nav-item">
+                    <a routerLink="/vInicio" class="nav-link">Inicio / Inizio</a>
+                </li>
+                <li *ngIf="routeOportunidadesVisible" class="nav-item">
+                    <a routerLink="/vNovedades" class="nav-link">Oportunidades / Opportunità </a>
+                </li>
+                <li *ngIf="routeServiciosVisible" class="nav-item">
+                    <a routerLink="/vServicios" class="nav-link">Servicios / Servizi </a>
+                </li>
+                <li *ngIf="routeNovedadesVisible" class="nav-item">
+                    <a routerLink="/vNovedades" class="nav-link">Novedades / Novità </a>
+                </li>
+                <li *ngIf="routeTurismoVisible" class="nav-item">
+                    <a routerLink="/vTurismo" class="nav-link">Argentina &  Italia </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Altro</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
