@@ -1,0 +1,10 @@
+.navbar-ccim {
+    background-color: #edeae5;
+}
+
+
+.nav-item-ccim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
