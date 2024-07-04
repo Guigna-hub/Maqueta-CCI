@@ -11,6 +11,7 @@ import { OportunidadesComponent } from './pages/oportunidades/oportunidades.comp
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { NovedadesComponent } from './pages/novedades/novedades.component';
 import { VistaErrorComponent } from './pages/vista-error/vista-error.component';
+import { TurismoComponent } from './pages/turismo/turismo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { VistaErrorComponent } from './pages/vista-error/vista-error.component';
     OportunidadesComponent,
     ServiciosComponent,
     NovedadesComponent,
-    VistaErrorComponent
+    VistaErrorComponent,
+    TurismoComponent
   ],
   imports: [
     BrowserModule,

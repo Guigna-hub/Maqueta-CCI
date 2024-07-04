@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { NovedadesComponent } from './pages/novedades/novedades.component';
 import { OportunidadesComponent } from './pages/oportunidades/oportunidades.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
+import { TurismoComponent } from './pages/turismo/turismo.component';
 import { VistaErrorComponent } from './pages/vista-error/vista-error.component';
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: 'vNovedades', component: NovedadesComponent },
   { path: 'vOportunidades', component: OportunidadesComponent },
   { path: 'vServicios', component: ServiciosComponent },
+  { path: 'vTurismo', component: TurismoComponent },
   { path: 'vError', component: VistaErrorComponent },
   { path: '', redirectTo: "/home", pathMatch: "full" },
   { path: '**', redirectTo: 'vError' },
