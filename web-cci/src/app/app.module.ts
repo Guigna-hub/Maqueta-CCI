@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { OportunidadesComponent } from './pages/oportunidades/oportunidades.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { NovedadesComponent } from './pages/novedades/novedades.component';
+import { VistaErrorComponent } from './pages/vista-error/vista-error.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NovedadesComponent } from './pages/novedades/novedades.component';
     HeaderComponent,
     OportunidadesComponent,
     ServiciosComponent,
-    NovedadesComponent
+    NovedadesComponent,
+    VistaErrorComponent
   ],
   imports: [
     BrowserModule,
