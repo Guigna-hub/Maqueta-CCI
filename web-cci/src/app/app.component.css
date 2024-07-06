@@ -1,0 +1,18 @@
+/* Default style for small screens */
+.router-outlet-container {
+    margin-top: 56px; 
+}
+
+/* For medium screens */
+@media (min-width: 992px) {
+  .router-outlet-container {
+    margin-top: 104px;
+  }
+}
+
+/* For large screens */
+@media (min-width: 1358px) {
+  .router-outlet-container {
+    margin-top: 68px;
+  }
+}
