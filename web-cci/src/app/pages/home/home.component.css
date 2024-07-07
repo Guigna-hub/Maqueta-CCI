@@ -114,17 +114,56 @@
   margin: 100px 0 50px 0;
 }
 
+.container-outer-02 {
+  background-image: url('/../assets/mendoza-aconcagua.webp');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  margin: 80px 0 80px 0;
+}
+
+.text-container-02 {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  min-height: 60%;
+  padding: 25px;
+  display: grid;
+}
+
+.text-container-02 h1 {
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.container-outer-02 hr {
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.text-container-02 p {
+  text-align: justify;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
 .image-ccim-logo-complete {
   display: flex;
   justify-content: center; 
   align-items: center; 
+  margin-bottom: 50px;
 }
 
 .image-ccim-logo-complete img {
   max-width: 80%;
   height: auto; 
   display: block; 
-  margin: 0 auto;
 }
 
 .iframe-container {
