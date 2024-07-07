@@ -21,22 +21,18 @@
   display: grid;
 }
 
-.container-outer-01 { 
-  margin: 40px 0;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  height: 600px;
-}
-
 .text-container-00 h1 {
   margin-bottom: 30px;
   font-size: 50px;
 }
 
-.container-outer-01 {
+.container-outer-01 { 
   margin: 80px 0 80px 0;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 600px;
 }
 
 .content-container-01 {
@@ -83,7 +79,7 @@
   width: 100px;
 }
 
-.overlay-container {
+.overlay-container-01 {
   position: absolute;
   top: 0;
   left: 0;
@@ -95,13 +91,13 @@
   z-index: 0;
 }
 
-.container-outer_01_center {
+.overlay-container-inner-01 {
   max-width: 400px;
   background-color: hsla(30, 48%, 32%, 0.95);
   padding: 20px;
 }
 
-.container-outer_01_text {
+.overlay-text-container-inner-01 {
   color: white;
   text-align: center;
     font-weight: bold;
