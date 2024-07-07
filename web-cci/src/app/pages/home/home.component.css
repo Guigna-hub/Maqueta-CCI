@@ -126,3 +126,14 @@
   display: block; 
   margin: 0 auto;
 }
+
+.iframe-container {
+  display: flex;
+  justify-content: center;
+}
+
+.iframe-container iframe {
+  max-width: 80%;
+  height: 500px; 
+  margin-bottom: 50px;
+}
