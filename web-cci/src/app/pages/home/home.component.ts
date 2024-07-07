@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,5 +12,20 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  display: any;
+    center: google.maps.LatLngLiteral = {
+        lat: -32.8874302,
+        lng: -68.8522195
+    };
+    zoom = 6;
+  
+    moveMap(event: google.maps.MapMouseEvent) {
+        if (event.latLng != null) this.center = (event.latLng.toJSON());
+    }
+  
+    move(event: google.maps.MapMouseEvent) {
+        if (event.latLng != null) this.display = event.latLng.toJSON();
+    }
 
 }
