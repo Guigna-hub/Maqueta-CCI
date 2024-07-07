@@ -105,7 +105,6 @@
     line-height: 1.4;
 }
 
-
 .container-video-00,
 .container-video-01 {
   width: 100%;
@@ -113,4 +112,17 @@
   align-items: center;
   justify-content: center;
   margin: 100px 0 50px 0;
+}
+
+.image-ccim-logo-complete {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.image-ccim-logo-complete img {
+  max-width: 80%;
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
 }
