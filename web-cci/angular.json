@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "web-cci:build:production"
+              "buildTarget": "web-cci:build:production"
             },
             "development": {
-              "browserTarget": "web-cci:build:development"
+              "buildTarget": "web-cci:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "web-cci:build"
+            "buildTarget": "web-cci:build"
           }
         },
         "test": {
