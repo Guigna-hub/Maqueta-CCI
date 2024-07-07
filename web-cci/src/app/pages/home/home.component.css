@@ -83,6 +83,32 @@
   width: 100px;
 }
 
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  z-index: 0;
+}
+
+.container-outer_01_center {
+  max-width: 400px;
+  background-color: hsla(30, 48%, 32%, 0.95);
+  padding: 20px;
+}
+
+.container-outer_01_text {
+  color: white;
+  text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
 .container-video-00,
 .container-video-01 {
   width: 100%;
