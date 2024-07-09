@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-oportunidades',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OportunidadesComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit(): void {
   }
 
+  redirectToExternalUrl() {
+    window.location.href = 'https://litioensudamerica.com.ar/';
+  }
 }
