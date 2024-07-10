@@ -1,7 +1,7 @@
 hr {
     border: 0;
     height: 2px;
-    background: #00003d;;
+    background: #00003d;
     background-image: linear-gradient(to right, #1c1c44, #00003d, #1c1c44);
 }
 
