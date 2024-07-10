@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top fixed-top navbar-ccim">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-ccim">
     <div class="container-fluid">
-        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse flex-column justify-content-between px-0" id="navbarNav">
             <ul class="navbar-nav mx-auto nav-item-ccim">
@@ -10,19 +10,30 @@
                     <a routerLink="/vInicio" routerLinkActive="active-link" class="nav-link">Inicio / Inizio</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a routerLink="/vOportunidades" routerLinkActive="active-link" class="nav-link">Oportunidades / Opportunità </a>
+                    <a routerLink="/vOportunidades" routerLinkActive="active-link" class="nav-link">Oportunidades /
+                        Opportunità</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a routerLink="/vServicios" routerLinkActive="active-link" class="nav-link">Servicios / Servizi </a>
+                    <a routerLink="/vServicios" routerLinkActive="active-link" class="nav-link">Servicios / Servizi</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a routerLink="/vNovedades" routerLinkActive="active-link" class="nav-link">Novedades / Novità </a>
+                    <a routerLink="/vNovedades" routerLinkActive="active-link" class="nav-link">Novedades / Novità</a>
                 </li>
                 <li class="nav-item me-4">
-                    <a routerLink="/vTurismo" routerLinkActive="active-link" class="nav-link">Argentina & Italia </a>
+                    <a routerLink="/vTurismo" routerLinkActive="active-link" class="nav-link">Argentina & Italia</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link">Altro</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Altro
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" routerLink="/vTurismo">Argentina & Italia</a></li>
+                        <li><a class="dropdown-item" routerLink="/vAsociarse">Asociarse / Associarsi</a></li>
+                        <li><a class="dropdown-item" routerLink="/vSocios">Área de Socios / Partner Area</a></li>
+                        <li><a class="dropdown-item" routerLink="/vNosotros">Sobre nosotros / Chi siamo</a></li>
+                        <li><a class="dropdown-item" routerLink="/vNoticias">Institucionales / Istituzionale</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>
