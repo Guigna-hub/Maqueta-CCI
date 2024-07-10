@@ -1,0 +1,49 @@
+hr {
+    border: 0;
+    height: 2px;
+    background: #00003d;;
+    background-image: linear-gradient(to right, #1c1c44, #00003d, #1c1c44);
+}
+
+.title-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text-div {
+    width: 100%;
+    padding: 70px;
+}
+
+.text-div p {
+    text-align: justify;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btn {
+    border-radius: 0;
+    font-size: 18px;
+    height: 52px;
+    width: 240px;
+}
+.btn-div {
+    margin: 40px 0 40px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:focus,
+.btn:hover {
+    background-color:#00003d;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
