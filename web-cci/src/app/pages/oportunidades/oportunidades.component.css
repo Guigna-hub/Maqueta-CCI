@@ -35,8 +35,9 @@ hr {
 
 .btn {
     border-radius: 0;
-    padding: 12px 24px;
     font-size: 18px;
+    height: 52px;
+    width: 185px;
 }
 .btn-div {
     margin: 40px 0 40px 0;
